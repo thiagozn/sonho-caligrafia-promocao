@@ -61,7 +61,7 @@ const Pricing = () => {
                   size="xl"
                   variant="gradient"
                   className="w-full text-sm sm:text-base md:text-lg font-bold py-5 md:py-6"
-                  onClick={() => window.open('https://wa.me/5511999999999?text=Quero%20o%20Método%20Caligrafia%20Fácil', '_blank')}
+                  onClick={() => window.open('https://pay.kiwify.com.br/UiTdha5', '_blank')}
                 >
                   ACESSAR AGORA
                 </Button>
