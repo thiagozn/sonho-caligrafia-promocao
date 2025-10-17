@@ -30,31 +30,31 @@ const Pricing = () => {
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-primary">
               VEJA TUDO O QUE VOCÊ VAI RECEBER HOJE:
             </h3>
-            <div className="space-y-3 md:space-y-4">
+            <div className="space-y-4 md:space-y-5">
               <div className="flex items-start gap-3">
-                <Check className="h-6 w-6 text-success flex-shrink-0 mt-1" />
-                <div>
-                  <p className="font-semibold text-foreground">Caderno de Caligrafia Infantil Completo</p>
+                <Check className="h-6 w-6 text-success flex-shrink-0 mt-0.5" />
+                <div className="flex-1">
+                  <p className="font-semibold text-foreground text-base md:text-lg mb-1">Caderno de Caligrafia Infantil Completo</p>
                   <p className="text-muted-foreground text-sm">Valor normal: R$ 69,90</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Check className="h-6 w-6 text-success flex-shrink-0 mt-1" />
-                <div>
-                  <p className="font-semibold text-foreground">Caderno Bônus de Caligrafia para Adultos</p>
+                <Check className="h-6 w-6 text-success flex-shrink-0 mt-0.5" />
+                <div className="flex-1">
+                  <p className="font-semibold text-foreground text-base md:text-lg mb-1">Caderno Bônus de Caligrafia para Adultos</p>
                   <p className="text-muted-foreground text-sm">Valor normal: R$ 28,00</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Check className="h-6 w-6 text-success flex-shrink-0 mt-1" />
-                <div>
-                  <p className="font-semibold text-foreground">Bônus Exclusivo: Caderno de Orações</p>
-                  <p className="text-accent font-semibold text-sm">Não está à venda</p>
+                <Check className="h-6 w-6 text-success flex-shrink-0 mt-0.5" />
+                <div className="flex-1">
+                  <p className="font-semibold text-foreground text-base md:text-lg mb-1">Bônus Exclusivo: Caderno de Orações</p>
+                  <p className="text-secondary font-semibold text-sm">Não está à venda</p>
                 </div>
               </div>
-              <div className="border-t-2 border-border pt-4 mt-4">
+              <div className="border-t-2 border-border pt-5 mt-6">
                 <p className="text-xl md:text-2xl font-bold text-center text-foreground">
-                  VALOR TOTAL: <span className="text-destructive">R$ 97,90</span>
+                  VALOR TOTAL: <span className="text-destructive line-through">R$ 97,90</span>
                 </p>
               </div>
             </div>

@@ -24,15 +24,15 @@ const Hero = () => {
             <div className="space-y-2 md:space-y-3">
               <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
                 <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Desenvolve a coordenação motora fina, essencial para a escrita</p>
-              </div>
-              <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
-                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Aprendizado sem estresse, com exercícios que as crianças amam fazer</p>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">+300 exercícios práticos</p>
               </div>
               <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
                 <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Resultados visíveis em até 7 dias</p>
+              </div>
+              <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
+                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Acesso via WhatsApp e e-mail</p>
               </div>
             </div>
 
