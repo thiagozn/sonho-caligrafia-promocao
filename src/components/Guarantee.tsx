@@ -78,7 +78,7 @@ const Guarantee = () => {
               size="xl"
               variant="success"
               className="w-full text-sm sm:text-base md:text-lg py-5 md:py-6"
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('checkout')?.scrollIntoView({ behavior: 'smooth' })}
             >
               GARANTIR MINHA VAGA AGORA
             </Button>

@@ -60,7 +60,7 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="relative px-2 sm:px-0">
+          <div id="checkout" className="relative px-2 sm:px-0 scroll-mt-20">
             <div className="absolute -inset-1 bg-gradient-to-r from-[hsl(var(--primary-start))] to-[hsl(var(--primary-end))] rounded-2xl md:rounded-3xl opacity-20 blur-xl"></div>
             <div className="relative bg-card rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-12 shadow-[var(--shadow-lg)] border-2 border-primary/20">
               <div className="text-center mb-6 md:mb-8">

@@ -67,7 +67,7 @@ const WhatYouLearn = () => {
             <Button
               size="xl"
               variant="gradient"
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('checkout')?.scrollIntoView({ behavior: 'smooth' })}
             >
               QUERO COMPRAR AGORA
             </Button>

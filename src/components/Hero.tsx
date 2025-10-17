@@ -40,7 +40,7 @@ const Hero = () => {
               size="lg"
               variant="gradient"
               className="w-full md:w-auto text-sm sm:text-base md:text-lg px-6 py-5 md:py-6"
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('checkout')?.scrollIntoView({ behavior: 'smooth' })}
             >
               QUERO MELHORAR MINHA LETRA AGORA!
             </Button>

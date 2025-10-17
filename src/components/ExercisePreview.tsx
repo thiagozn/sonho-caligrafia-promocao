@@ -28,7 +28,7 @@ const ExercisePreview = () => {
               size="xl"
               variant="gradient"
               className="w-full max-w-md text-sm sm:text-base md:text-lg font-bold py-5 md:py-6"
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('checkout')?.scrollIntoView({ behavior: 'smooth' })}
             >
               QUERO VER TODOS OS EXERCÍCIOS!
             </Button>
