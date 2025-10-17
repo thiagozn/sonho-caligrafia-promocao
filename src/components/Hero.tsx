@@ -13,27 +13,26 @@ const Hero = () => {
                 Caligrafia dos Sonhos
               </p>
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-center lg:text-left">
-                <span className="text-secondary">TRANSFORME SUA CALIGRAFIA</span>{" "}
-                <span className="text-foreground">EM APENAS 7 DIAS!</span>
+                <span className="text-secondary">A Letra do Seu Filho Bonita e Legível</span>{" "}
+                <span className="text-foreground">em 7 Dias (ou Menos!)</span>
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground text-center lg:text-left">
-                Se você quer escrever melhor, bonito e com mais agilidade, o Método
-                Caligrafia dos Sonhos é pra você! Para adultos e crianças!
+                Chega de cadernos ilegíveis e estresse na hora da lição. Com nosso método divertido, seu filho vai desenvolver uma caligrafia que te encherá de orgulho.
               </p>
             </div>
 
             <div className="space-y-2 md:space-y-3">
               <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
                 <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">+300 exercícios práticos</p>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Desenvolve a coordenação motora fina, essencial para a escrita</p>
+              </div>
+              <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
+                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Aprendizado sem estresse, com exercícios que as crianças amam fazer</p>
               </div>
               <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
                 <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Resultados visíveis em até 7 dias</p>
-              </div>
-              <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start">
-                <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-success flex-shrink-0" />
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium">Acesso via WhatsApp e e-mail</p>
               </div>
             </div>
 

@@ -3,23 +3,18 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Maria Silva",
-      text: "O Caligrafia dos Sonhos transformou a caligrafia do meu filho! Em apenas 5 dias, a letra dele ficou muito mais legível!",
+      name: "Mariana S., mãe do Lucas",
+      text: "Meu filho odiava escrever, agora ele pede para fazer os exercícios! A letra dele melhorou 100% em poucos dias. Estou impressionada!",
       rating: 5,
     },
     {
-      name: "João Santos",
-      text: "Comprei para mim mesmo e estou impressionado com os resultados. Minha escrita melhorou significativamente em pouco tempo.",
+      name: "Patricia R., mãe da Júlia",
+      text: "Não acreditava que seria tão rápido! Em menos de uma semana a professora já elogiou a caligrafia da minha filha. Vale cada centavo!",
       rating: 5,
     },
     {
-      name: "Ana Costa",
-      text: "Material excelente! Minha filha está adorando praticar todos os dias. Já vejo uma grande diferença na coordenação motora dela.",
-      rating: 5,
-    },
-    {
-      name: "Pedro Oliveira",
-      text: "Método simples e eficaz. Recomendo para todos que querem melhorar a caligrafia de forma prática e divertida.",
+      name: "Fernanda M., mãe do Gabriel",
+      text: "Finalmente achei algo que funciona! Meu filho tem 8 anos e sempre teve letra ilegível. Agora até os avós conseguem ler o que ele escreve!",
       rating: 5,
     },
   ];
@@ -29,10 +24,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-primary">
-            Veja o que nossos alunos estão dizendo:
+            Veja o que os pais estão dizendo sobre o Método Caligrafia dos Sonhos:
           </h2>
 
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
@@ -54,14 +49,6 @@ const Testimonials = () => {
             ))}
           </div>
 
-          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-card)] border border-border text-center max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl font-semibold text-foreground mb-4">
-              Assista aos depoimentos em vídeo:
-            </p>
-            <div className="aspect-video rounded-xl overflow-hidden bg-muted flex items-center justify-center">
-              <p className="text-muted-foreground">Vídeo de depoimentos disponível</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

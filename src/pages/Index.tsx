@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
 import ChildrenSection from "@/components/ChildrenSection";
+import Testimonials from "@/components/Testimonials";
 import ExercisePreview from "@/components/ExercisePreview";
 import WhatYouLearn from "@/components/WhatYouLearn";
 import HowItWorks from "@/components/HowItWorks";
@@ -15,6 +16,7 @@ const Index = () => {
       <Hero />
       <Benefits />
       <ChildrenSection />
+      <Testimonials />
       <ExercisePreview />
       <WhatYouLearn />
       <HowItWorks />

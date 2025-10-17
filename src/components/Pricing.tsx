@@ -26,6 +26,40 @@ const Pricing = () => {
             </p>
           </div>
 
+          <div className="bg-card rounded-2xl p-6 sm:p-8 shadow-[var(--shadow-card)] border border-border max-w-3xl mx-auto mb-8">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-primary">
+              VEJA TUDO O QUE VOCÊ VAI RECEBER HOJE:
+            </h3>
+            <div className="space-y-3 md:space-y-4">
+              <div className="flex items-start gap-3">
+                <Check className="h-6 w-6 text-success flex-shrink-0 mt-1" />
+                <div>
+                  <p className="font-semibold text-foreground">Caderno de Caligrafia Infantil Completo</p>
+                  <p className="text-muted-foreground text-sm">Valor normal: R$ 69,90</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Check className="h-6 w-6 text-success flex-shrink-0 mt-1" />
+                <div>
+                  <p className="font-semibold text-foreground">Caderno Bônus de Caligrafia para Adultos</p>
+                  <p className="text-muted-foreground text-sm">Valor normal: R$ 28,00</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Check className="h-6 w-6 text-success flex-shrink-0 mt-1" />
+                <div>
+                  <p className="font-semibold text-foreground">Bônus Exclusivo: Caderno de Orações</p>
+                  <p className="text-accent font-semibold text-sm">Não está à venda</p>
+                </div>
+              </div>
+              <div className="border-t-2 border-border pt-4 mt-4">
+                <p className="text-xl md:text-2xl font-bold text-center text-foreground">
+                  VALOR TOTAL: <span className="text-destructive">R$ 97,90</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="relative px-2 sm:px-0">
             <div className="absolute -inset-1 bg-gradient-to-r from-[hsl(var(--primary-start))] to-[hsl(var(--primary-end))] rounded-2xl md:rounded-3xl opacity-20 blur-xl"></div>
             <div className="relative bg-card rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-12 shadow-[var(--shadow-lg)] border-2 border-primary/20">
@@ -40,7 +74,7 @@ const Pricing = () => {
                 <div className="space-y-1.5 md:space-y-2 mb-6 md:mb-8">
                   <p className="text-destructive line-through text-base sm:text-lg md:text-xl font-semibold">De R$97,90</p>
                   <div className="flex items-center justify-center gap-1 md:gap-2">
-                    <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-success">R$19</span>
+                    <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-success">R$17</span>
                     <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-success">,90</span>
                   </div>
                   <p className="text-xs sm:text-sm text-muted-foreground">Parcelamento em até 6x no cartão</p>

@@ -62,13 +62,17 @@ const Guarantee = () => {
             })}
           </div>
 
-          <div className="text-center bg-gradient-to-br from-success/10 to-primary/10 rounded-xl md:rounded-2xl p-6 sm:p-8 md:p-12 border border-success/20 mx-2 sm:mx-0">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-foreground px-2">
-              Satisfação Garantida ou Seu Dinheiro de Volta!
+          <div className="text-center bg-gradient-to-br from-success/10 to-primary/10 rounded-xl md:rounded-2xl p-6 sm:p-8 md:p-12 border-2 border-success/30 mx-2 sm:mx-0 shadow-[var(--shadow-lg)]">
+            <div className="flex items-center justify-center mb-4">
+              <Shield className="h-16 w-16 md:h-20 md:w-20 text-success" />
+            </div>
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-foreground px-2">
+              Garantia Incondicional de 7 Dias (Risco Zero!)
             </h3>
-            <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-4 md:mb-6 max-w-3xl mx-auto px-2">
-              Estamos tão confiantes de que você vai adorar o Caligrafia dos Sonhos que oferecemos
-              uma garantia de 7 dias. Se você não estiver satisfeito, devolvemos seu dinheiro!
+            <p className="text-base sm:text-lg md:text-xl text-foreground mb-6 md:mb-8 max-w-3xl mx-auto px-2 leading-relaxed">
+              Sua satisfação é nossa única prioridade. Se, por qualquer motivo, você ou seu filho não amarem o material, 
+              <strong> basta nos enviar um único e-mail dentro de 7 dias</strong> e nós devolveremos <strong>100% do seu investimento</strong>. 
+              Sem perguntas, sem burocracia e a gente continua amigo. <strong>O risco é todo nosso.</strong>
             </p>
             <Button
               size="xl"
@@ -76,7 +80,7 @@ const Guarantee = () => {
               className="w-full sm:w-auto text-sm sm:text-base md:text-lg py-5 md:py-6"
               onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              ACESSAR AGORA
+              GARANTIR MEU ACESSO AGORA
             </Button>
           </div>
         </div>
