@@ -33,9 +33,7 @@ const BonusSection = () => {
               </p>
 
               <div className="space-y-2">
-                <p className="text-muted-foreground line-through text-lg md:text-xl">
-                  Valor de Mercado: R$49,90
-                </p>
+
                 <p className="text-success text-xl md:text-2xl font-bold">
                   Você vai receber de graça ao comprar o Caligrafia dos Sonhos!
                 </p>
