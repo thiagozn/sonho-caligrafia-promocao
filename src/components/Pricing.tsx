@@ -35,14 +35,14 @@ const Pricing = () => {
                 <Check className="h-6 w-6 text-success flex-shrink-0 mt-0.5" />
                 <div className="flex-1">
                   <p className="font-semibold text-foreground text-base md:text-lg mb-1">Caderno de Caligrafia Infantil Completo</p>
-                  <p className="text-muted-foreground text-sm">Valor normal: R$ 69,90</p>
+                  <p className="text-muted-foreground text-sm">Valor normal: <span className="line-through">R$ 69,90</span></p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="h-6 w-6 text-success flex-shrink-0 mt-0.5" />
                 <div className="flex-1">
                   <p className="font-semibold text-foreground text-base md:text-lg mb-1">Caderno Bônus de Caligrafia para Adultos</p>
-                  <p className="text-muted-foreground text-sm">Valor normal: R$ 28,00</p>
+                  <p className="text-muted-foreground text-sm">Valor normal: <span className="line-through">R$ 28,00</span></p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
