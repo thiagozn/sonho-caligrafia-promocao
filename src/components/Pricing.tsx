@@ -77,7 +77,7 @@ const Pricing = () => {
                     <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-success">R$17</span>
                     <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-success">,90</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-muted-foreground">Parcelamento em até 6x no cartão</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground">Pagamento via PIX</p>
                 </div>
 
                 <div className="space-y-2 md:space-y-3 mb-6 md:mb-8 text-left max-w-md mx-auto">
@@ -95,7 +95,7 @@ const Pricing = () => {
                   size="xl"
                   variant="gradient"
                   className="w-full text-sm sm:text-base md:text-lg font-bold py-5 md:py-6"
-                  onClick={() => window.open('https://pay.kiwify.com.br/UiTdha5', '_blank')}
+                  onClick={() => window.open('https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti', '_blank')}
                 >
                   ACESSAR AGORA
                 </Button>
