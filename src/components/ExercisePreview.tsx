@@ -1,4 +1,7 @@
 import exerciseExample from "@/assets/exercise-example.webp";
+import exerciseBasic1 from "@/assets/exercise-basic-1.webp";
+import exerciseBasic2 from "@/assets/exercise-basic-2.webp";
+import exerciseBasic3 from "@/assets/exercise-basic-3.webp";
 import { Button } from "@/components/ui/button";
 
 const ExercisePreview = () => {
@@ -15,12 +18,35 @@ const ExercisePreview = () => {
             </p>
           </div>
 
-          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-card)] border border-border">
-            <img
-              src={exerciseExample}
-              alt="Exemplo de exercícios de caligrafia"
-              className="w-full rounded-xl"
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border border-border">
+              <img
+                src={exerciseExample}
+                alt="Exemplo de exercícios de caligrafia"
+                className="w-full rounded-xl"
+              />
+            </div>
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border border-border">
+              <img
+                src={exerciseBasic1}
+                alt="Exercícios básicos de caligrafia - Padrões"
+                className="w-full rounded-xl"
+              />
+            </div>
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border border-border">
+              <img
+                src={exerciseBasic2}
+                alt="Exercícios básicos de caligrafia - Letras"
+                className="w-full rounded-xl"
+              />
+            </div>
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border border-border">
+              <img
+                src={exerciseBasic3}
+                alt="Exercícios básicos de caligrafia - Pontilhados"
+                className="w-full rounded-xl"
+              />
+            </div>
           </div>
 
           <div className="text-center px-2">
