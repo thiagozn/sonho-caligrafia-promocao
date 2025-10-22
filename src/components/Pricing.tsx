@@ -74,8 +74,9 @@ const Pricing = () => {
                 <div className="space-y-1.5 md:space-y-2 mb-6 md:mb-8">
                   <p className="text-destructive line-through text-base sm:text-lg md:text-xl font-semibold">De R$97,90</p>
                   <div className="flex items-center justify-center gap-1 md:gap-2">
-                    <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-success">R$17</span>
-                    <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-success">,90</span>
+                    <p className="text-xs sm:text-sm text-muted-foreground">Por apenas:</p>
+                    <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-success">R$10</span>
+                    <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-success">,00</span>
                   </div>
                   <p className="text-xs sm:text-sm text-muted-foreground">Pagamento via PIX</p>
                 </div>
