@@ -13,7 +13,7 @@ const Pricing = () => {
   ];
   // 🔹 FUNÇÃO ADICIONADA (lógica do teste)
   const handleCheckoutClick = () => {
-    const PERCENTUAL = 40; // 10%
+    const PERCENTUAL = 20; // 10%
 
     const CHECKOUT_PADRAO =
       "https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti";
