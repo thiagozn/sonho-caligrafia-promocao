@@ -11,25 +11,7 @@ const Pricing = () => {
     "Garantia de 7 dias",
     "Suporte via WhatsApp",
   ];
-  // 🔹 FUNÇÃO ADICIONADA (lógica do teste)
-  const handleCheckoutClick = () => {
-    const PERCENTUAL = 20; // 10%
-
-    const CHECKOUT_PADRAO =
-      "https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti";
-
-    const CHECKOUT_ALTERNATIVO =
-      "https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti"; // apenas para teste
-
-    const sorteio = Math.random() * 100;
-
-    if (sorteio < PERCENTUAL) {
-      window.open(CHECKOUT_ALTERNATIVO, "_blank");
-    } else {
-      window.open(CHECKOUT_PADRAO, "_blank");
-    }
-  };
-
+  
   return (
     <section id="pricing" className="py-8 md:py-24 bg-gradient-to-br from-muted/30 to-background scroll-mt-20">
       <div className="container mx-auto px-3 sm:px-4">
@@ -110,14 +92,14 @@ const Pricing = () => {
                   ))}
                 </div>
 
-                <Button
-            size="xl"
-            variant="gradient"
-            className="w-full text-sm sm:text-base md:text-lg font-bold py-5 md:py-6"
-            onClick={handleCheckoutClick} // 🔹 ALTERAÇÃO AQUI
-          >
-            ACESSAR AGORA
-          </Button>
+                  <Button
+                  size="xl"
+                  variant="gradient"
+                  className="w-full text-sm sm:text-base md:text-lg font-bold py-5 md:py-6"
+                  onClick={() => window.open('https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti', '_blank')}
+                >
+                  ACESSAR AGORA
+                </Button>
 
                 <div className="mt-4 md:mt-6 flex items-center justify-center gap-2 text-xs sm:text-sm text-muted-foreground">
                   <span>🔒</span>
