@@ -19,7 +19,7 @@ const Pricing = () => {
       "https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti";
 
     const CHECKOUT_ALTERNATIVO =
-      "https://www.youtube.com/"; // apenas para teste
+      "https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti"; // apenas para teste
 
     const sorteio = Math.random() * 100;
 
