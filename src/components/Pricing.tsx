@@ -96,7 +96,7 @@ const Pricing = () => {
                   size="xl"
                   variant="gradient"
                   className="w-full text-sm sm:text-base md:text-lg font-bold py-5 md:py-6"
-                  onClick={() => window.open('https://www.ggcheckout.com/checkout/v2/uhau9HBJyikmsKZWG5Ti', '_blank')}
+                  onClick={() => window.open('https://ggcheckout.com.br/checkout/v2/uhau9HBJyikmsKZWG5Ti', '_blank')}
                 >
                   ACESSAR AGORA
                 </Button>
